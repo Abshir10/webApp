@@ -1,28 +1,33 @@
+
 * {
     margin: 0;
     padding: 0;
 }
-
-
+body {
+    overflow-y: hidden;
+}
 .container  {
-    width: 100vw;
-    height: 100vh;
-    background-color: #eaecee;
+   width: 100vw;
+   background-color: #F8F9FA;
+   height: 100vh;
 }
+
 .nav {
-    width: 100%;
-    background-color:#FFFFFF;
-    height: 100px;
-
-    
+  height: 100px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
 }
+.logo {
 
+}
 ul {
     display: flex;
-    margin-top: 10px;
+    
 }
 li {
-    margin-left: 100px;
+    margin-left: 50px;
     list-style: none;
-
 }
